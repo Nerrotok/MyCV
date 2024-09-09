@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <div id="topBlock">
-        <h1 class="header" id="welcomeHeading">Welcome To My Website</h1>
+        <h1 class="header" id="welcomeHeading">Welcome To My CV</h1>
         <img
           id="pictureOfConnor"
           src="images/me.jpg"
@@ -16,28 +16,6 @@
           height="160px"
           width="160px"
         />
-      </div>
-      <div id="searchBlock">
-        <label id="labelForSearch" class="searchLabel" for="site-search"
-          >Search my site:</label
-        >
-        <br />
-        <input
-          list="siteAreas"
-          id="siteSearch"
-          name="q"
-          placeholder="Search here..."
-        />
-
-        <datalist id="siteAreas">
-          <option value="Bio"></option>
-          <option value="Links"></option>
-          <option value="Skills"></option>
-          <option value="Education"></option>
-          <option value="Work Experience"></option>
-        </datalist>
-
-        <button id="searchButton">Search</button>
       </div>
 
       <h3 class="header" id="linksHeader">My links</h3>
@@ -115,13 +93,12 @@
         </p>
 
         <p id="bioPara2" class="bioPara">
-          I enjoy learning skills to enrich my life. I bring this energy to
-          learning any new skill or refineing and re-inventing old ones. This is
-          present in my coding, essay writing, tutoring, fencing, gaming, guitar
-          playing, and cooking (the furthest from refinement). I find particular
-          satisfaction in learning to communicate effectively with people. I am
-          invigorated by teaching and learning from others. At the same time is
-          best.
+          I enjoy learning skills. I bring this energy to learning any new skill
+          or refineing and re-inventing old ones. This is present in my coding,
+          essay writing, tutoring, fencing, gaming, guitar playing, and cooking
+          (the furthest from refinement). I find particular satisfaction in
+          learning to communicate effectively with people. I am invigorated by
+          teaching and learning from others. At the same time is best.
         </p>
 
         <p id="bioPara3" class="bioPara">
@@ -134,8 +111,23 @@
       <h2 class="header" id="mySkillsHeader">My Skills:</h2>
       <ul id="skillsList">
         <li class="skillItem">Python</li>
+        <li class="skillItem">JavaScript</li>
+        <li class="skillItem">PHP</li>
+        <li class="skillItem">Laravel</li>
+        <li class="skillItem">MongoDB</li>
+        <li class="skillItem">Express.js</li>
+        <li class="skillItem">React</li>
+        <li class="skillItem">Node.js</li>
+        <li class="skillItem">Java</li>
+        <li class="skillItem">Database Design</li>
+        <li class="skillItem">jQuery</li>
+        <li class="skillItem">Git</li>
         <li class="skillItem">Object Oriented Programming</li>
         <li class="skillItem">SQL</li>
+        <li class="skillItem">MySQL</li>
+        <li class="skillItem">PostgreSQL</li>
+        <li class="skillItem">HTML</li>
+        <li class="skillItem">CSS</li>
         <li class="skillItem">SOLID Design principles</li>
         <li class="skillItem">Web Scraping</li>
         <li class="skillItem">APIs</li>
@@ -147,8 +139,20 @@
         <li class="skillItem">Awareness of Psychological Processes</li>
         <li class="skillItem">Beauracratic Experience</li>
       </ul>
-      <h2 class="header" id="myEducationHeader">My Education</h2>
+      <h2 class="header" id="myEducationHeader">My Education:</h2>
       <div id="educationBox">
+        <p id="educationPara2">
+          My software education is mostly made up of my time completing
+          HyperionDev's Fullstack Web and Software Engineering course. This had
+          me learn new technologies and apply them to projects. This included
+          having me design databases, learn both frontend and backend web
+          development. I learnt to use the MERN stack, PHP with/and Laravel,
+          Java, and MySQL. Before this I learnt Python, PostgreSQL, and SOLID
+          Software Principles through courses I took on Udemy at the end of my
+          undergraduate degree. I learnt to use libraries like pandas and
+          streamlit. I also first learnt web frameworks through Django and
+          Flask.
+        </p>
         <p id="educationPara1">
           My undergraduate degree in historical studies consisted of gathering
           and synthesising information from various credible sources to make a
@@ -165,41 +169,6 @@
           calculation for significance and writing argumentative essays based on
           evidence gathered from research papers and other academic resources.
         </p>
-        <p id="educationPara2">
-          My programming education has consisted of learning the basic rules of
-          a language and slowly building up to larger and larger projects after
-          learning what is needed for them. This has been common across the 2
-          python courses I completed. After learning about user inputs, for
-          loops and while loops I was able to build a
-          <a href="https://github.com/Nerrotok/Xs-and-Os" target="_blank"
-            >naughts and crosses game</a
-          >
-          After learning about abject oriented programming I was able to build a
-          <a href="https://github.com/Nerrotok/black-jack" target="_blank"
-            >black jack game</a
-          >. After learning how to intergrate python with SQL I could build
-          database centered apps like
-          <a
-            href="https://github.com/Nerrotok/Student-management-app"
-            target="_blank"
-            >a student management system</a
-          >. My favourites programs that the courses had me build were a
-          <a href="https://github.com/Nerrotok/security-webcam" target="_blank"
-            >motion sensing camera</a
-          >
-          which sends an email with a picture of the object that was detected. A
-          <a
-            href="https://github.com/Nerrotok/web-scraping-sql-tours"
-            target="_blank"
-            >webscraping app</a
-          >
-          which emails if a band has announced a tour. I have most recently made
-          a
-          <a href="https://github.com/Nerrotok/MyFencingWebsite" target="_blank"
-            >fencing blog</a
-          >
-          which utilises HTML, JS, Jquery, and SCSS.
-        </p>
       </div>
       <h2 class="header" id="workExperienceHeader">Work Experience</h2>
       <ul id="workExperienceList">
@@ -209,25 +178,22 @@
           </p>
           <p>
             I tutor high school students either at the company's location or
-            online via zoom. I have tutored in geographical sciences and english
-            home language. The job involves arranging times with the student
-            and/or parents to have a session on a weekly basis. Then we ask what
-            outcomes the parent and child are hoping to achieve and setting out
-            a plan to make these outcomes achievable. Some students have
-            difficulty in some areas that prevent them from achieving their
-            goals. In these cases it is best to practice improving these areas.
-            Some students have a weaker foundational understanding of a subject,
-            this either needs to be directly addressed (rebuilding foundational
-            aspects) or (if it is too late to effectively strengthen the
-            foundation before exams) teach skills and methods to get the best
-            mark possible without having a solid foundation.
+            online via video call. I have tutored in geographical sciences,
+            history and english home language. The job involves arranging times
+            with the student and/or parents to have a session on a weekly basis
+            (can be flexible). I then communicate with the student to figure out
+            what outcomes they want to achieve through tutoring and begin
+            working towards them. Often students have key problem areas that
+            need to be addressed directly. These can be confidence, lack of
+            foundational knowledge, or a variety of other issues which are
+            addressed according to the student's needs.
           </p>
           <p>
-            After tutoring a student we were able to bring their mark up from
-            low 50s to middling 70s in English. This was achieved mostly through
-            attention being paid to the method in which they answered questions
-            and developing confidence in their ability to answer questions
-            through practice.
+            One success story with a student was being able to bring their mark
+            up from low 50s to middling 70s in English. This was achieved mostly
+            through attention being paid to the method in which they answered
+            questions and developing confidence in their ability to answer
+            questions through practice.
           </p>
         </li>
         <li class="workExperienceItem">

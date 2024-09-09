@@ -38,7 +38,7 @@ top {
 #educationBox {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  gap: 24px;
+  gap: 12px;
   margin-left: 48px;
   margin-bottom: 48px;
 }
